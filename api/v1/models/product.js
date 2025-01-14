@@ -8,6 +8,6 @@ const productSchema=mongoose.Schema({
     cid:Number,
     pid:Number
 });//יצירת סכמה עבור מוצרים
-const model=mongoose.model('products',productSchema);// יצירת מודל דרכו נעבוד מול בסיס הנתונים עם המוצרים
+const productModel=mongoose.model('products',productSchema);// יצירת מודל דרכו נעבוד מול בסיס הנתונים עם המוצרים
 
-module.exports=model;
+module.exports=productModel;
